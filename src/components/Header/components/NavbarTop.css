@@ -1,0 +1,147 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 7px 0px;
+}
+
+.n-offer>p {
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.options-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 120px !important;
+}
+
+.n-options {
+    display: flex;
+    justify-content: flex-end;
+    justify-content: center;
+}
+.n-options-main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tnicons {
+    display: flex;
+    justify-content: center;
+    font-size: 11px;
+}
+
+.ncurrency,
+.nlanguage {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 50px;
+    font-size: 11px;
+    margin: 0px 5px;
+}
+
+.nlanguage,
+.ncurrency {
+    margin-right: 15px;
+    position: relative;
+    width: 47px;
+}
+
+/* ....................................  */
+.nlanguage>button {
+    color: inherit;
+    background-color: transparent;
+    border: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 11px;
+    color: #bde1f5;
+
+
+}
+
+.dropdown-menu {
+    position: absolute;
+    margin-top: 50px;
+    padding: 5px;
+    background: white;
+}
+
+.dropdown-menu>ul {
+    list-style: none;
+}
+
+.hicon {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.hicon>img {
+    width: 15px;
+}
+
+.hicon>p {
+    text-align: center;
+    color: #373737;
+
+}
+
+.m-icons {
+    height: 18px !important;
+    padding: 0px 5px;
+    color: #bde1f5;
+}
+
+/* .divider1 {
+    width: 10px;
+} */
+
+/* -----------------------------Currency ----------------------------- */
+
+
+.ncurrency>button {
+    color: inherit;
+    background-color: transparent;
+    border: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 11px;
+    color: #bde1f5;
+
+}
+
+/* -----------------------------tmenu ----------------------------- */
+
+
+.header-menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 10px;
+    padding: 0px 10px;
+}
+
+
+.header-menu>span {
+    padding-left: 10px;
+    color: #bde1f5;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.divider1 {
+    width: 1px;
+    background-color: #bde1f5;
+    height: 10px;
+}

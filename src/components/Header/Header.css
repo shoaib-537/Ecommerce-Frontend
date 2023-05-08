@@ -1,0 +1,10 @@
+.main{
+    background-color: #08c;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}.container{
+    width: 1160px;
+}
