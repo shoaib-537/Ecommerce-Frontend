@@ -1,0 +1,77 @@
+.heroContainer {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    margin: 40px 0px;
+    background-color: red;
+}
+
+.heroMain {
+    width: 1160px;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    color: #555555;
+}
+
+/* ---------------------------- Menu ---------------------------- */
+.heroMenu {
+    width: 263PX;
+}
+
+.heroMenu {
+    background-color: #F6F7F9;
+    border: 1px solid #555555;
+}
+
+.menuTitle {
+    padding: 10px;
+    margin: 0px 15px;
+    font-weight: 500;
+
+}
+
+.menucategory {
+    background-color: white;
+    width: 100%;
+}
+
+.menucategory1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 30px;
+}
+
+.menucategory1>span {
+    padding-left: 10px;
+}
+
+.heroDeivider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}.heroDeivider>hr{
+    width: 80%;
+}
+.herobtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+.herobtn>button{
+    width: 200px;
+    height: 50px;
+    border: none;
+    background-color: #222529;
+    color: white;
+    font-weight: 400;
+}
+/* ---------------------------- Slider ---------------------------- */
+.heroSlider {
+    width: 70%;
+}

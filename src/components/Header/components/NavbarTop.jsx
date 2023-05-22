@@ -18,11 +18,11 @@ const NavbarTop = () => {
     setShowDropdown1(false);
   };
   const handleMouseEnter2 = () => {
-    setShowDropdown1(true);
+    setShowDropdown2(true);
   };
 
   const handleMouseLeave2 = () => {
-    setShowDropdown1(false);
+    setShowDropdown2(false);
   };
   return (
     <div>
@@ -88,7 +88,7 @@ const NavbarTop = () => {
                     <button>
                       <p>USD</p> <KeyboardArrowDownIcon />
                     </button>
-                    {showDropdown1 && (
+                    {showDropdown2 && (
                       <div className="dropdown-menu">
                         <ul>
                           <li>

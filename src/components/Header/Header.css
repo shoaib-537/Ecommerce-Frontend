@@ -1,10 +1,22 @@
-.main{
-    background-color: #08c;
+.header-main {
     color: white;
     display: flex;
     align-items: center;
+    background-color: #08c;
     justify-content: center;
-    
-}.container{
-    width: 1160px;
+
 }
+
+
+
+.header-container {
+    max-width: 1160px;
+}
+
+.header-divider {
+    height: 1px !important;
+    max-width: 1160px;
+    background-color: #bde1f5;
+}
+
+
