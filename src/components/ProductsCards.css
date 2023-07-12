@@ -1,0 +1,47 @@
+
+.fpcards {
+    width: 265px;
+    height: 400px;
+    margin: 0px 20px 0px 0px;
+}
+
+.fpsubheading {
+    margin-top: 10px;
+}
+
+.fpimg {
+    height: 265px;
+    width: 265px;
+}
+
+.fpimg>img {
+    height: 265px;
+    width: 265px;
+    object-fit: cover;
+
+}
+
+.fpsubheading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cattext>span {
+    font-size: 10px;
+    color: #777777;
+}
+
+.cardicon {
+    height: 16px;
+    width: 16px;
+}
+.productDetails>p{
+    font-size: 15px;
+    color: #222529;
+    text-transform: capitalize;
+}
+.productDetails>span{
+    font-size: 18px;
+    font-weight: 500;
+}

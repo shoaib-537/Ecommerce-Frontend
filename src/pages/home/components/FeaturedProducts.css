@@ -1,0 +1,26 @@
+.fpcontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fbfbfb;
+    padding: 50px 0 32px 0;
+}
+
+.fpmain {
+    height: 500px;
+    width: 1160px;
+}
+
+.fptitle {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #313131;
+    margin-bottom: 24px;
+    padding-bottom: 11px;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.fpsection {
+    display: flex;
+
+}
